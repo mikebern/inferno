@@ -2,7 +2,8 @@ import os
 import h5py as h5
 import numpy as np
 import yaml
-from scipy.misc import imsave
+#from scipy.misc import imsave
+from imageio import imsave
 
 
 # Function to load in a dataset from a h5file
